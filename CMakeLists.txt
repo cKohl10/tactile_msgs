@@ -16,6 +16,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/IndexToPos.srv"
+  "srv/IndexToRelPosAndPrnt.srv"
   DEPENDENCIES geometry_msgs
 )
 

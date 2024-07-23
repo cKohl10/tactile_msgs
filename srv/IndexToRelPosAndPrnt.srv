@@ -1,0 +1,4 @@
+int64 index
+---
+geometry_msgs/Vector3 rel_position
+string parent_path
